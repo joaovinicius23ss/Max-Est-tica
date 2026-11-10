@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.3.8-dist/css/bootstrap.css">
+
+    <style>
+        .navbar-max {
+            background-color: #082B50;
+        }
+        .sobre-container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 40px;
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto 60px;
+        }
+        .dev-card {
+            width: 280px;
+            flex-shrink: 0;
+            background-color: white;
+            border: 1px solid #8b6b32;
+            border-radius: 12px;
+            padding: 18px;
+            box-sizing: border-box;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+        }
+        .dev-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .detalhes {
+            flex: 1;
+            min-width: 0;
+        }
+    </style>
+
+    <title>Sobre | MAX Estética Automotiva</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-max">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="página 1.html">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="página 2.html">Produtos</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="página 3.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="página 4.html">Mais informações</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="página 5.html">Trabalhe conosco!</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Navegue
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="página 1.html">Home</a></li>
+                <li><a class="dropdown-item" href="página 2.html">Produtos</a></li>
+                <li><a class="dropdown-item" href="página 3.html">Sobre</a></li>
+                <li><a class="dropdown-item" href="página 4.html">Mais informações</a></li>
+                <li><a class="dropdown-item" href="página 5.html">Trabalhe conosco</a></li>
+            </ul>
+            </li>
+            <!--li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li-->
+        </ul>
+        </div>
+    </div>
+    </nav>
+    <h1 class="titulo-pagina">QUEM SOMOS?</h1>
+
+    <h2>Conheça mais sobre o desenvolvimento do projeto!</h2>
+
+    <div class="sobre-container">
+        <div class="dev-card">
+            <img src="Imagens/Imagem Aline.png" alt="Foto de Maria Clara">
+            <h2>Aline Queiroz</h2>
+
+            <h3>Dona da MAX Estética Automotiva</h3>
+
+        </div>
+
+        <section class="detalhes">
+
+            <h3>Conheça mais do trabalho desenvolvido!</h3>
+
+            <div class="accordion" id="accordionDesenvolvedoras">
+
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#aline"
+                            aria-expanded="false"
+                            aria-controls="aline">
+                           Atendimento, administração e comunicação
+                        </button>
+                    </h2>
+                    <div id="aline"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#accordionDesenvolvedoras">
+
+                        <div class="accordion-body">
+
+                            <h1>Atendimento, administração e comunicação</h1>
+                                <p>Aline é responsável por grande parte da organização administrativa da empresa, pelo relacionamento com os clientes e pela presença da MAX nas redes sociais. Participa da criação de conteúdos, vídeos e divulgação 
+                            <p><b>Além das atividades administrativas, também coloca a mão na massa e participa dos serviços de lavagem e cuidado dos veículos, acompanhando de perto a rotina da estética automotiva.</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+     <div class="sobre-container">
+        <div class="dev-card">
+            <img src="Imagens/Imagem Marcos3.png" alt="Foto do Marcos">
+            <h2>Marcos Vinicius</h2>
+
+            <h3>Dono da MAX Estética Automotiva</h3>
+
+        </div>
+
+        <section class="detalhes">
+            <div class="accordion" id="accordionDesenvolvedoras">
+
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#marcos"
+                            aria-expanded="false"
+                            aria-controls="marcos">
+                            Gestão e serviços automotivos
+                        </button>
+                    </h2>
+                    <div id="marcos"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#accordionDesenvolvedoras">
+
+                        <div class="accordion-body">
+
+                            <h1>Gestão e serviços automotivos</h1>
+ <p>Marcos atua diretamente na execução dos serviços, realizando lavagens e diversos procedimentos de estética automotiva. Também participa da administração geral da empresa, organização da equipe, contratação de colaboradores, logística e marketing.</p>
+
+<p><b>Está presente em diferentes etapas do funcionamento da MAX, desde o atendimento das demandas operacionais até a realização dos serviços, contribuindo diariamente para o crescimento do negócio.</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+<div class="alert alert-primary" role="alert">
+  <h2 class="alert-heading">Uma parceria construída com dedicação.</h2>
+<h4>A MAX Estética Automotiva é resultado do trabalho conjunto de duas pessoas que fazem da dedicação e do compromisso a base de seu negócio.
+Mais do que oferecer serviços, Aline e Marcos buscam construir relações de confiança com seus clientes, entregando cuidado, atenção e qualidade em cada atendimento.</h4>
+  <h1 class="mb-0"><b>MAX Estética Automotiva: duas trajetórias, um propósito e o compromisso de cuidar do seu veículo!</b></h1>
+</div>
+    <div class="sobre-container">
+        <div class="dev-card">
+            <img src="Imagens/Imagem Maria2.png" alt="Foto de Maria Clara">
+            <h2>Maria Clara Castro</h2>
+
+            <h3>Desenvolvedora do Site HTML e do Software</h3>
+
+        </div>
+
+        <section class="detalhes">
+
+            <h3>Conheça mais do trabalho desenvolvido!</h3>
+
+            <div class="accordion" id="accordionDesenvolvedoras">
+
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#maria"
+                            aria-expanded="false"
+                            aria-controls="maria">
+                            Programação em HTML, interface Web e lógica de programação
+                        </button>
+                    </h2>
+                    <div id="maria"
+                        class="accordion-collapse collapse"
+                        data-bs-parent="#accordionDesenvolvedoras">
+
+                        <div class="accordion-body">
+
+                            <h1>DESENVOLVEDORA DO PROJETO</h1>
+
+                            <h2>Por trás do desenvolvimento</h2>
+
+                            <p>
+                                Este projeto foi desenvolvido integralmente por uma
+                                única desenvolvedora, desde o planejamento e a
+                                organização das ideias até a construção e
+                                personalização do site.
+                            </p>
+
+                            <p>
+                                Fui responsável pela estruturação das páginas,
+                                desenvolvimento da interface, organização dos
+                                conteúdos e implementação dos elementos visuais
+                                e interativos, buscando criar uma experiência
+                                agradável, intuitiva e funcional para os usuários.
+                            </p>
+
+                            <p>
+                                Durante o desenvolvimento, utilizei
+                                <b>HTML, CSS, JavaScript e Bootstrap</b>,
+                                aplicando conhecimentos de programação, estilização,
+                                responsividade e organização de componentes para
+                                construir um site que representasse a identidade
+                                da MAX Estética Automotiva.
+                            </p>
+
+                            <p>
+                                O projeto conta com páginas dedicadas à apresentação
+                                da empresa, divulgação de serviços, informações de
+                                contato e apresentação do desenvolvimento, além de
+                                recursos visuais como banners, imagens, menus de
+                                navegação, cards e elementos interativos.
+                            </p>
+
+                            <h2>Um projeto, muitos aprendizados</h2>
+
+                            <p>
+                                Desenvolver este trabalho individualmente foi um
+                                desafio que exigiu dedicação, criatividade,
+                                organização e capacidade de resolver problemas
+                                ao longo de cada etapa.
+                            </p>
+
+                            <p>
+                                Mais do que entregar um site, este projeto representa
+                                a aplicação prática dos conhecimentos adquiridos
+                                durante minha formação técnica em Informática,
+                                demonstrando minha evolução e meu desenvolvimento
+                                como futura profissional da área de tecnologia.
+                            </p>
+
+                            <h2>
+                                Desenvolvimento, criatividade e dedicação
+                                em cada detalhe.
+                            </h2>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
